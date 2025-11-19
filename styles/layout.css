@@ -1,0 +1,133 @@
+
+
+.section-padding {
+	padding: 87px 0px 0px;
+	
+}
+
+.container {
+	display: block;
+	width: 88%;
+	max-width: 1400px;
+	margin: 0 auto;
+	flex-direction: column;
+	overflow: hidden;
+}
+
+
+/* ROW */
+
+.row {
+	display: flex;             /* Makes the content run horizontally, instead of vertically */
+	flex-wrap: wrap;           /* Makes the content wrap down if the elements inside are wider than the screen */
+	align-content: stretch;    /* Makes the elements inside grow to the height of the container */
+	margin: 0px -20px;
+	
+}
+
+.section-grid{
+	display: grid;
+	grid-template-columns: 2fr 2fr;
+	grid-template-rows: 1fr;
+}
+
+.row-justify-end {
+	justify-content: flex-end;
+}
+
+.row-justify-center {
+	justify-content: center;
+}
+
+.row-justify-between {
+	justify-content: space-between;
+}
+
+.row-align-end {
+	align-items: flex-end; /* UPDATED */
+}
+
+.row-align-center {
+	align-items: center; /* UPDATED */
+}
+
+.item{
+	flex: 0 0 45%;
+}
+
+
+/* COLUMN */
+
+.col-margin{
+	margin: 50px 50px;
+}
+
+.col {
+	display:inline;
+	flex-grow: 1;
+	flex-shrink: 1;
+	flex-basis: 0%;
+	padding: 0px 20px;
+	
+}
+
+.col-lg-1 {
+	max-width: 8.33%;
+}
+
+.col-lg-2 {
+	max-width: 16.67%;
+}
+
+.col-lg-3 {
+	max-width: 25%;
+}
+
+.col-lg-4 {
+	max-width: 33.33%;
+}
+
+.col-lg-5 {
+	max-width: 41.67%;
+}
+
+.col-lg-6 {
+	max-width: 50%;
+}
+
+.col-lg-7 {
+	max-width: 58.33%;
+}
+
+.col-lg-8 {
+	max-width: 66.67%;
+}
+
+.col-lg-9 {
+	max-width: 75%;
+}
+
+.col-lg-10 {
+	max-width: 83.33%;
+}
+
+.col-lg-11 {
+	max-width: 91.67%;
+}
+
+.col-lg-12 {
+	max-width: 100%;
+}
+
+
+/* display: flex
+display: inline-flex
+flex-grow:
+flex-shrink:
+flex-basis:
+flex: (shorthand)
+flex-wrap:
+flex-direction: */
+
+/* ELEMENT */
+
