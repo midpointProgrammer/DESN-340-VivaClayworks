@@ -15,39 +15,196 @@
 	<!-- FONTS -->
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-	<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Libre+Caslon+Text:ital,wght@0,400;0,700;1,400&family=Space+Grotesk:wght@300..700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Caslon+Text:ital,wght@0,400;0,700;1,400&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Space+Grotesk:wght@300..700&display=swap" rel="stylesheet">
+
 
 </head>
 
 <body>
 	<!-- TOP NAVIGATION -->
-	<header class="navigation">
+	<header>
 
 		<!-- Links for the top navigation --> 
-		<div>
+		<div class="navbar-container">
+
+			<div>
+				<img src="images/general/vivaClayworksLogo.png" style="width:150px;">
+			</div>
+
 			<nav>
+
+				<!-- Main Links -->
 				<ul>
 					<li><a href="index.html" class="">Home</a></li>
 					<li><a href="aboutUs.html">About Us</a></li>
-					<li><a href="Classes.html">Classes</a></li>
+					<li><a href="classes.html">Classes</a></li>
 				</ul>
+				 
+		
 			</nav>
-		</div>
 
-		<!-- Contact Us button -->
-		 <div>
-			<a href="ContactUs.html" class="button-brown">Contact Us</a>
-		 </div>
+			<!-- Contact Us button -->
+				<a href="contactUs.html" class="button-brown">Contact Us</a>
+		</div>
 
 	</header>
 
     <!-- MAIN CONTENT-->
 	<main>
+
+		<!-- Hero Section -->
+		<section class="index-hero-section">
+
+			<div class="col-lg-5 col img-index-2">
+				<img src="images/index/index_2.png" class="img">
+			 </div>
+
+			<!-- Left column -->
+			<div class="col-lg-7 col">
+				<h1 style="color:#FFFFFF;">WARM, WELCOMING, AND MUDDY</h1>
+				<h3 style ="color:#F2DFCE">Welcome to Viva Clay Works Pottery!</h3>
+				<p style="color:#FFFFFF;">Step into Edmonton’s coziest clay studio — where creativity spins freely, laughter fills the air, and you’ll leave with more than just clay on your hands.</p>
+				<a href="aboutUs.html" class="button-darkbrown-outlined">ABOUT US</a>
+
+			</div>
+
+			<!-- Right column -->
+			 <div class=" col-lg-5 col">
+				<img src="images/index/index_1.png" class="img-index-hero">
+			 </div>
+
+		</section>
+
+		<!-- Marketplace Section -->
+		 <section class="background-white-textured container">
+			<div class="row-index-section-2">
+				<h2>We're so much more than your Pottery Studio... We sell pots too!</h2>
+				<a href="index.html" class="button-brown" style="align-self: center;">MARKETPLACE</a>
+			</div>
+		 </section>
+
+		 <!-- The Latest Section -->
+		 <section class="background-yellow">
+
+			<div class="col col-lg-12">
+				<!-- The Latest Title -->
+				<div class="title-centered">
+					<h1 style="color: #472D30;">THE LATEST</h1>
+					<h3 style="color: #A67E6F; font-size:20;"> Our newest stories, shaped in clay</h3>
+
+				</div>
+
+				<!-- Scrollabl: This part was implemented by CLAUDE AI. The prompt was "Can you help me make the thing for the scrollable" and I also inputed my figma design -->
+				<div class="row">
+					<div class="scroll-card">
+						<img src="images/index/index_3.png" class="img">
+					</div>
+					<div class="scroll-card">
+						<img src="images/index/index_4.png" class="img">
+					</div>
+					<div class="scroll-card">
+						<img src="images/index/index_5.png" class="img">
+					</div>
+
+				</div>
+
+				<!-- Button -->
+				<div class="row">
+					<a href="index.html" class="button-brown" style="align-self: center;">MORE</a>
+				</div>
+
+			</div>
+
+		 </section>
+
+		 <!-- Newsletter Section -->
+		 <section class="background-white-textured container">
+
+			<div class="row">
+				<!-- Newsletter Container -->
+				<div class="news-container">
+
+					<!-- Image in the container -->
+					<div>
+						<img src="images/general/emailBoxPopupPicture.png" class="img">
+					</div>
+
+					<!-- Text in the container -->
+					<div>
+						<h1 style="color:#472D30">Stay in the Loop</h1>
+						<p style="color:#A67E6F"> Join our mail list and never miss the clay action!</p>
+
+					</div>
+
+				</div>
+			</div>
+
+		 </section>
+
+		 <!-- Visit Us Section -->
+		 <section class="background-brown">
+			<div class="row">
+
+				<div class="col col-lg-6">
+
+					<div>
+						<h1 style="color:#ffffff">Visit Us</h1>
+					</div>
+
+					<div>
+						<h3 style="color:#F2DFCE">LOCATION</h3>
+						<p style="color:#F2DFCE">10125 81 Ave NW, Edmonton, AB T6E 1W9</p>
+					</div>
+
+					<div>
+						<h3 style="color:#F2DFCE">HOURS</h3>
+						<ul class="list-no-bullets">
+							<li style="color:#F2DFCE">Monday: <strong>7am – 5pm</strong></li>
+							<li style="color:#F2DFCE">Tuesday: <strong>7am – 5pm</strong></li>
+							<li style="color:#F2DFCE">Wednesday: <strong>7am – 5pm</strong></li>
+							<li style="color:#F2DFCE">Thursday: <strong>7am – 7pm</strong></li>
+							<li style="color:#F2DFCE">Friday: <strong>7am – 5pm</strong></li>
+							<li style="color:#F2DFCE">Saturday: <strong>9am – 5pm</strong></li>
+							<li style="color:#F2DFCE">Sunday: <strong>9am – 3pm</strong></li>
+						</ul>
+					</div>
+
+				</div>
+
+				<div class="col col-lg-6">
+
+					<img src="images/general/mapsImage.png" class="img">
+
+				</div>
+
+			</div>
+
+		 </section>
+
 	</main>
 
 
 	<!-- FOOTER -->
-	<footer>
+	<footer class="background-darkbrown footer-container">
+		<div class="footer-div">
+			<div class="row">
+				<img src="images/general/vivaClayworksLogo.png" class="img">
+			</div>
+
+			<div class="row">
+				<ul class="list-no-bullets">
+					<li style="color:#F2DFCE">About Us</li>
+					<li style="color:#F2DFCE">Classes</li>
+					<li style="color:#F2DFCE">Contact Us</li>
+			</div>
+
+			<div class="row">
+				<p style="color:#F2DFCE">© 2025 / All Rights Reserved</p>
+				<p style="color:#F2DFCE">Prices to change without notice </p>
+				<p style="color:#F2DFCE">Website Design by Angel Ngo</p>
+			</div>
+		</div>
 	</footer>
 </body>
 </html>
