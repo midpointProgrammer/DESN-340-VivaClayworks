@@ -1,21 +1,28 @@
 
 
-/* GLOBAL STYLES */
-
-body {
-	font-family: "Space Grotesk", sans-serif;
-	color: #53444B;
-	background-color: #FFF4E2;
-}
-
-
 
 /* ----BACKGROUNDS---- */
+header{
+	background-color:#A67E6F;
+	padding: 16px 15%;
+}
 
+.background-brown{
+	background-color: #A67E6F;
+}
 
 
 /* ----TEXT MODIFIERS ----*/
 /* Main Styles */
+body {
+	font-family: "Open Sans", sans-serif;
+	/* color: #53444B;
+	background-color: #ffffff; */
+}
+
+h1{
+	font-family: "Libre Caslon Text", serif;
+}
 
 
 
@@ -29,6 +36,30 @@ body {
 
 
 /* Navigation */
+nav li{
+	list-style: none;
+	display: inline-block;
+	
+	/* padding-left: 0px; */
+}
+
+nav a{
+	text-decoration: none;
+	color: #1E1E1E;
+}
+
+nav a:hover{
+	background-color: #fcdade;
+     color: #472D30;
+	 
+}
+
+nav ul{
+	padding:0;
+	margin:0;
+	display: flex;
+	gap: 10px;
+}
 
 
 
@@ -38,6 +69,14 @@ body {
 
 
 /* Buttons */
+
+.button-brown{
+	background-color: #734D49;
+	color: #FFFFFF;
+	padding: 10px 20px;
+	border-radius: 25px;
+	text-decoration: none;
+}
 
 
 
