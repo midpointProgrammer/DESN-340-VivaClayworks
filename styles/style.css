@@ -5,23 +5,64 @@
 header{
 	background-color:#A67E6F;
 	padding: 16px 15%;
+	font-family: "Libre Caslon", sans-serif;
 }
 
 .background-brown{
 	background-color: #A67E6F;
 }
 
+.background-darkbrown{
+	background-color: #4D3537;
+}
+
+.background-white-textured{
+	background-image: url('../images/general/background_whiteTexture.png');
+	background-size: cover;
+	background-position:center;
+	background-repeat: no-repeat;
+	overflow: hidden;
+}
+
+.background-yellow{
+	background-image: url('../images/general/background_yellow_texture.png');
+	background-size: cover;
+	background-position:center;
+	background-repeat: no-repeat;
+	overflow: hidden;
+	padding: 60px 40px;
+}
+
+
+
 
 /* ----TEXT MODIFIERS ----*/
 /* Main Styles */
 body {
 	font-family: "Open Sans", sans-serif;
-	/* color: #53444B;
-	background-color: #ffffff; */
 }
 
 h1{
 	font-family: "Libre Caslon Text", serif;
+}
+
+h2{
+	font-family: "Libre Caslon Text", serif;
+}
+
+h3{
+	font-family: "Open Sans", sans-serif;
+}
+
+.title-centered{
+	text-align:center;
+	padding: 40px;
+	font-size: 30px;
+}
+
+.list-no-bullets {
+	list-style: none;
+	padding-left: 0px;
 }
 
 
@@ -65,6 +106,16 @@ nav ul{
 
 /* Image Styles */
 
+.img{
+	max-width: 100%;
+	
+}
+
+.img-index-hero{
+	max-width: 100%;
+	/* flex:1; */
+}
+
 
 
 
@@ -78,9 +129,25 @@ nav ul{
 	text-decoration: none;
 }
 
+.button-darkbrown-outlined{
+	background-color: #472D30;
+	border-radius: 25px;
+	padding: 10px 25px;
+	color: #FFFFFF;
+	text-decoration: none;
+	display: inline-block;
 
+}
 
 
 /* ----INDIVIDUAL STYLES---- */
+
+.index-hero-section{
+	background-color: #A67E6F;
+	align-items:center;
+	display: flex;
+	flex:1;
+	padding: 40px 60px;
+}
 
 

@@ -10,7 +10,7 @@
 	border-radius: 30px;
 	padding: 10px 35px;
 
-	max-width: 600px;
+	max-width: 700px;
 	margin: 0 auto;
 
 
@@ -31,6 +31,7 @@
 	margin: 0 auto;
 	flex-direction: column;
 	overflow: hidden;
+	padding: 50px;
 }
 
 
@@ -40,9 +41,35 @@
 	display: flex;             /* Makes the content run horizontally, instead of vertically */
 	flex-wrap: wrap;           /* Makes the content wrap down if the elements inside are wider than the screen */
 	align-content: stretch;    /* Makes the elements inside grow to the height of the container */
+	justify-content:center;
+	align-items:center;
 	margin: 0px -20px;
 	
 }
+
+.row-index-section-2{
+	display:flex;
+	flex-direction: column;
+	justify-content: flex-end;
+	align-items: center;
+	text-align:center;
+	padding-left:300px;
+
+}
+/* Both the .scrollable-row and .scroll-card was implemented by Claude AI. I asked "can you help me make the thing for the scrollable"  and I also inputed my figma design */
+/* I ended up changing it a bit because It wasn't scrolling anyways. */
+.scrollable-row{
+	display: flex;
+	gap: 20p;
+	overflow-x: auto;
+	padding: 20px;
+}
+
+.scroll-card{
+	flex-shrink:0;
+	width: 250px;
+}
+
 
 .section-grid{
 	display: grid;
@@ -138,15 +165,46 @@
 	max-width: 100%;
 }
 
+/* IMAGES */
 
-/* display: flex
-display: inline-flex
-flex-grow:
-flex-shrink:
-flex-basis:
-flex: (shorthand)
-flex-wrap:
-flex-direction: */
+.img-index-2{
+	position: relative;
+	top: 200px;
+	z-index:1;
+	
+	align-self: flex-end;
+	margin-top: 400px;
+}
 
-/* ELEMENT */
 
+/* NEWS*/
+.news-container{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+
+	background-color: #FFFFFF;
+	text-align:center;
+	border-radius: 30px;
+	padding: 10px 35px;
+
+
+}
+
+
+/* FOOTER*/
+.footer-container{
+	display:flex;
+	justify-content: space-between;
+	align-items:center;
+	padding:10px;
+}
+
+.footer-div{
+	display:flex;
+	flex-direction: column;
+	gap:15px;
+	align-content: left;
+
+}
